@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_main.css" />
+    <title>Laboratory Exercise in Platform-Based Development</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="particles"></div>
+      <div class="info-text">
+        <h1>GEN-ZERATORS</h1>
+        <h3>CHRISTIAN BARTE | MICHAEL SALEM</h3>
+        <a href="#features" class="scroll"><i class="bx bxs-down-arrow"></i></a>
+      </div>
+    </header>
+
+    <!-- <section id="about">
+        <div class="header">
+            <h1>About Me</h1>
+            <a href="#">Hire Me</a>
+        </div>
+
+        <div class="card">
+            <img src="assets/logo.png">
+            <div class="info">
+                <h1>It's AsmrProg</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptates error in dolorum dolor
+                    rerum
+                    reiciendis consequuntur tenetur maxime.
+                </p>
+
+            </div>
+        </div>
+    </section> -->
+
+    <section id="features">
+      <div class="header">
+        <h1>Features</h1>
+        <!-- <a href="#">See More</a> -->
+      </div>
+      <div class="feature-cards">
+        <div class="card">
+          <div class="info">
+            <i class="bx bxs-devices"></i>
+            <h1>Glassmorphism</h1>
+            <p class="desc-features">
+              Contemporary design concept that combines transparency and blur
+              effects to create an elegant, frosted glass-like appearance in web
+              interfaces. It provides a polished look to UI elements.
+            </p>
+          </div>
+          <button
+            type="button"
+            class="go-button"
+            onclick="window.location.href = '../glassmorphism/glsm.html'"
+          >
+            Go<i class="bx bx-chevron-right"></i>
+          </button>
+        </div>
+        <div class="card">
+          <div class="info">
+            <i class="bx bx-code-alt"></i>
+            <h1>Box Shadow</h1>
+            <p class="desc-features">
+              Experience to easily add depth by creating subtle shadows around
+              elements, contributing to a sense of dimensionality and hierarchy
+              in web design.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            class="go-button"
+            onclick="window.location.href = '../box_shadow/bs.html'"
+          >
+            Go<i class="bx bx-chevron-right"></i>
+          </button>
+        </div>
+        <div class="card">
+          <div class="info">
+            <i class="bx bxs-component"></i>
+            <h1>Gradiefy</h1>
+            <p class="desc-features">
+              Powerful design tool used in web interfaces creating a gradual
+              transition between two or more colors, adding depth and interest
+              to elements like buttons, backgrounds, and logos.
+            </p>
+          </div>
+          <button
+            type="button"
+            class="go-button"
+            onclick="window.location.href = '../gradient_gen/gr.html'"
+          >
+            Go <i class="bx bx-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <button class="scroll-top" onclick="scrollToTop()">
+      <i class="bx bxs-up-arrow"></i>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="func_main.js"></script>
+  </body>
+</html>
